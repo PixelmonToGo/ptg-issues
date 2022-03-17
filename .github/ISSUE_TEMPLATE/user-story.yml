@@ -1,0 +1,58 @@
+name: User Story
+description: File a user story
+title: "[story]: "
+labels: ["user-story"]
+body:
+  - type: input
+    id: who
+    attributes:
+      label: Who does this affect?
+      description:
+      placeholder: As a...
+    validations:
+      required: false
+
+  - type: input
+    id: what
+    attributes:
+      label: What do they want?
+      description:
+      placeholder: I want...
+    validations:
+      required: false
+
+  - type: input
+    id: why
+    attributes:
+      label: Why do they want this?
+      description:
+      placeholder: So that...
+    validations:
+      required: false
+
+  - type: input
+    id: how
+    attributes:
+      label: How did this begin?
+      description:
+      placeholder: Given...
+    validations:
+      required: false
+
+  - type: input
+    id: when
+    attributes:
+      label: When is this resolved?
+      description:
+      placeholder: When...
+    validations:
+      required: false
+
+  - type: input
+    id: where
+    attributes:
+      label: What is the outcome of the resolution?
+      description:
+      placeholder: Then...
+    validations:
+      required: false
